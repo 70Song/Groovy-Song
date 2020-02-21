@@ -1,0 +1,75 @@
+* Starting client
+* Connecting to master process on port 5210
+* Analyzing classpath: 
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/java/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/antlr2
+* Finished analyzing classpath
+* Generating tests for class org.apache.groovy.util.concurrent.concurrentlinkedhashmap.LinkedDeque
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 8 tests from /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/evosuite-seeds/org.apache.groovy.util.concurrent.concurrentlinkedhashmap.LinkedDeque.seed
+* Total number of test goals: 
+  - Line 130
+  - Branch 83
+  - Exception 0
+  - MutationFactory 252
+  - Output 61
+  - Method 44
+  - MethodNoException 44
+  - CBranchFitnessFactory 83
+* Using seed 1582267763419
+* Starting evolution
+* Search finished after 259s and 118 generations, 0 statements, best individual has fitness: 859.9923664122138
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 0%
+* Total number of goals: 130
+* Number of covered goals: 0
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 83
+* Number of covered goals: 0
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 0%
+* Total number of goals: 252
+* Number of covered goals: 0
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 61
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 0%
+* Total number of goals: 44
+* Number of covered goals: 0
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 0%
+* Total number of goals: 44
+* Number of covered goals: 0
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 0%
+* Total number of goals: 83
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 12% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'LinkedDeque_ESTest' to /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/tmp_2020_02_21_01_49_07/tests
+* Done!
+

@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 7800
+* Analyzing classpath: 
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/java/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/antlr2
+* Finished analyzing classpath
+* Generating tests for class org.apache.groovy.util.BeanUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 17 tests from /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/evosuite-seeds/org.apache.groovy.util.BeanUtils.seed
+* Total number of test goals: 
+  - Line 11
+  - Branch 16
+  - Exception 0
+  - MutationFactory 33
+  - Output 6
+  - Method 2
+  - MethodNoException 2
+  - CBranchFitnessFactory 16
+* Using seed 1582267763482
+* Starting evolution
+* Search finished after 113s and 1527 generations, 244893 statements, best individual has fitness: 4.0
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 82%
+* Total number of goals: 11
+* Number of covered goals: 9
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 94%
+* Total number of goals: 33
+* Number of covered goals: 31
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Generated 13 tests with total length 13
+* Resulting test suite's coverage: 93% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 82%
+* Compiling and checking tests
+* Writing JUnit test case 'BeanUtils_ESTest' to /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/tmp_2020_02_21_01_49_07/tests
+* Done!
+

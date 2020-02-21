@@ -1,0 +1,80 @@
+* Starting client
+* Connecting to master process on port 11921
+* Analyzing classpath: 
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/java/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/antlr2
+* Finished analyzing classpath
+* Generating tests for class org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 57 tests from /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/evosuite-seeds/org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap.seed
+* Total number of test goals: 
+  - Line 494
+  - Branch 276
+  - Exception 0
+  - MutationFactory 597
+  - Output 126
+  - Method 128
+  - MethodNoException 128
+  - CBranchFitnessFactory 276
+* Using seed 1582267763436
+* Starting evolution
+* Search finished after 307s and 16 generations, 5323 statements, best individual has fitness: 1768.2212349291556
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 45%
+* Total number of goals: 494
+* Number of covered goals: 224
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 40%
+* Total number of goals: 276
+* Number of covered goals: 111
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 49%
+* Total number of goals: 597
+* Number of covered goals: 291
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 3%
+* Total number of goals: 126
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 35%
+* Total number of goals: 128
+* Number of covered goals: 45
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 33%
+* Total number of goals: 128
+* Number of covered goals: 42
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 39%
+* Total number of goals: 276
+* Number of covered goals: 107
+* Generated 54 tests with total length 200
+* Resulting test suite's coverage: 43% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 16%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'ConcurrentLinkedHashMap_ESTest' to /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/tmp_2020_02_21_01_49_07/tests
+* Done!
+

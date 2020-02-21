@@ -1,0 +1,79 @@
+* Starting client
+* Connecting to master process on port 19521
+* Analyzing classpath: 
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/java/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/antlr2
+* Finished analyzing classpath
+* Generating tests for class org.apache.groovy.plugin.GroovyRunnerRegistry
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 41 tests from /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/evosuite-seeds/org.apache.groovy.plugin.GroovyRunnerRegistry.seed
+* Total number of test goals: 
+  - Line 145
+  - Branch 56
+  - Exception 0
+  - MutationFactory 50
+  - Output 36
+  - Method 17
+  - MethodNoException 17
+  - CBranchFitnessFactory 56
+* Using seed 1582267763413
+* Starting evolution
+[MASTER] 01:50:08.822 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for java.util.function.Function<java.lang.String, org.apache.groovy.plugin.GroovyRunner> canUseFunctionalMocks=false, canBeMocked: true
+[MASTER] 01:52:18.364 [pool-2-thread-1] WARN  TestChromosome - Functional mock problem: org.evosuite.ga.ConstructionFailedException: Have no generator for java.util.function.Function<java.lang.Object, org.apache.groovy.plugin.GroovyRunner> canUseFunctionalMocks=false, canBeMocked: true
+* Search finished after 236s and 942 generations, 501110 statements, best individual has fitness: 56.29761904761905
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 81%
+* Total number of goals: 145
+* Number of covered goals: 118
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 86%
+* Total number of goals: 56
+* Number of covered goals: 48
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 82%
+* Total number of goals: 50
+* Number of covered goals: 41
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 36
+* Number of covered goals: 18
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 86%
+* Total number of goals: 56
+* Number of covered goals: 48
+* Generated 29 tests with total length 74
+* Resulting test suite's coverage: 86% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 56%
+* Compiling and checking tests
+* Writing JUnit test case 'GroovyRunnerRegistry_ESTest' to /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/tmp_2020_02_21_01_49_07/tests
+* Done!
+

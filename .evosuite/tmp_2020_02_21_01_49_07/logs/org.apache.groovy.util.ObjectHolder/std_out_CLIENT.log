@@ -1,0 +1,74 @@
+* Starting client
+* Connecting to master process on port 12473
+* Analyzing classpath: 
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/test
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/java/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/classes/groovy/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/main
+  - /Users/xusong/Desktop/Projects/Groovy-Song/target/resources/antlr2
+* Finished analyzing classpath
+* Generating tests for class org.apache.groovy.util.ObjectHolder
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 2 tests from /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/evosuite-seeds/org.apache.groovy.util.ObjectHolder.seed
+* Total number of test goals: 
+  - Line 7
+  - Branch 4
+  - Exception 0
+  - MutationFactory 0
+  - Output 2
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 4
+* Using seed 1582268022344
+* Starting evolution
+[MASTER] 01:53:51.845 [pool-2-thread-1] WARN  TimeController - Phase INITIALIZATION lasted too long, 2 seconds more than allowed.
+* Search finished after 3s and 0 generations, 6183 statements, best individual has fitness: 1.0
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100% (no goals)
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100% (no goals)
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Generated 3 tests with total length 8
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Compiling and checking tests
+* Writing JUnit test case 'ObjectHolder_ESTest' to /Users/xusong/Desktop/Projects/Groovy-Song/.evosuite/tmp_2020_02_21_01_49_07/tests
+* Done!
+

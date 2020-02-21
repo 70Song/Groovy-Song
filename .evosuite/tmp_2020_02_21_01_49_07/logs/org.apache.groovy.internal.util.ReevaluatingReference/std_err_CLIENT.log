@@ -1,0 +1,72 @@
+[MASTER] 01:53:42.611 [TEST_EXECUTION_THREAD_0] ERROR FunctionalMockStatement - Cannot use Mockito on interface org.apache.groovy.internal.util.Supplier due to IAE: 
+Mockito cannot mock this class: interface org.apache.groovy.internal.util.Supplier.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 25.231-b11
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 1.8.0_231-b11
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.3
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 01:53:42.848 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class java.lang.invoke.SwitchPoint due to IAE: 
+Mockito cannot mock this class: class java.lang.invoke.SwitchPoint.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 25.231-b11
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 1.8.0_231-b11
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.3
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 01:53:43.152 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on interface org.apache.groovy.internal.util.Function due to IAE: 
+Mockito cannot mock this class: interface org.apache.groovy.internal.util.Function.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 25.231-b11
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 1.8.0_231-b11
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.3
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type
+[MASTER] 01:53:48.622 [TEST_EXECUTION_THREAD_1] ERROR FunctionalMockStatement - Cannot use Mockito on class java.lang.invoke.MethodHandle due to IAE: 
+Mockito cannot mock this class: class java.lang.invoke.MethodHandle.
+
+Mockito can only mock non-private & non-final classes.
+If you're not sure why you're getting this error, please report to the mailing list.
+
+
+Java               : 1.8
+JVM vendor name    : Oracle Corporation
+JVM vendor version : 25.231-b11
+JVM name           : Java HotSpot(TM) 64-Bit Server VM
+JVM version        : 1.8.0_231-b11
+JVM info           : mixed mode
+OS name            : Mac OS X
+OS version         : 10.15.3
+
+
+Underlying exception : java.lang.IllegalArgumentException: Could not create type

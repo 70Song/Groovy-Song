@@ -1,0 +1,9 @@
+[MASTER] 01:49:47.028 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap<K, V>.DrainStatus : Type points to itself
+[MASTER] 01:49:47.059 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleEntry<K, V> : Type points to itself
+[MASTER] 01:49:47.060 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.AbstractMap<K, V>.SimpleImmutableEntry<K, V> : Type points to itself
+[MASTER] 01:50:15.268 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Map<K, V>.Entry<K, V> : Type points to itself
+[MASTER] 01:52:12.900 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.UnaryOperator<T> : Type points to itself
+[MASTER] 01:52:20.202 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 01:52:33.724 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.BiFunction<T, U, R> : Type points to itself
+[MASTER] 01:52:33.858 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.BinaryOperator<T> : Type points to itself
+[MASTER] 01:52:34.233 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type Map.Entry[] defined at statement Map.Entry<AbstractMap.SimpleEntry<Object, Integer>, Integer>[] map_EntryArray0 = (Map.Entry<AbstractMap.SimpleEntry<Object, Integer>, Integer>[]) Array.newInstance(Map.Entry.class, 5), assignment statement: map_EntryArray0[0] = (Map.Entry<AbstractMap.SimpleEntry<Object, Integer>, Integer>) map_EntryArray0; SUT=org.apache.groovy.util.concurrent.concurrentlinkedhashmap.ConcurrentLinkedHashMap
